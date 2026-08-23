@@ -16,6 +16,7 @@ I worked on turning this into a problem RL can solve. I framed construction sche
 To find out if any of this mattered, I ran a human study against professional planners who worked with the industry partner for this project (PCL Construction) on a subarea of a real construction project. The agent's labour curves came out about 60% smoother, with total duration within 6-10% of the strongest baseline and shorter than the schedules designed by humans.
 
 Although this was a proof of concept, there is a lot more work to be done. I wanted to explore the use of search and RL; since the model of the environment can pretty easily be learned maybe pure RL isn't the best choice. When I write this into a journal, I'll look into alternative formulations.
+
 ### Reinforcement Learning for FPGA Placement
 *Intelligent Robot Learning Lab, University of Alberta. June 2023 – January 2024.*
 
@@ -43,4 +44,4 @@ It runs on my local machine, reachable from a browser over a Cloudflare tunnel w
 I hand-labeled an eval set containing 456 boxes and wrote a scoring script. It finds 97% of the queried cartridges, and 9% of the boxes it draws are wrong.
 
 Code: https://github.com/DeepakR-Sastry/cartridge_detection
-Blogpost (coming soon): blog/posts/cartridge-finder.qmd
+Blogpost (coming soon): https://deepakr-sastry.github.io/blog/posts/cartridge-finder.html
