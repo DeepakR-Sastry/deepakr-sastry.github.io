@@ -1,0 +1,12 @@
+---
+title: "Deep(ak) Learning"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  date-format: "MMM D, YYYY"
+  feed: true
+---
+
+Notes on reinforcement learning, mostly paper reads and things I build.

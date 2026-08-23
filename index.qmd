@@ -1,0 +1,9 @@
+---
+title: "Deepak Ranganatha Sastry Mamillapalli"
+---
+
+I am a recent graduate from the University of Alberta. I mainly work in Applied RL. During my masters, I worked on using RL to construction scheduling. In the past, I have worked on using deep RL for FPGA placement optimization. 
+
+Based in Edmonton, and looking for applied scientist and research engineer roles in Canada starting January 2027.
+
+[GitHub](https://github.com/DeepakR-Sastry) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/mamillap/) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.ca/citations?user=M_t9mM4AAAAJ&hl=en) &nbsp;·&nbsp; <mamillap at ualberta.ca>

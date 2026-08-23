@@ -1,0 +1,28 @@
+---
+title: "Projects"
+---
+
+## Research
+
+### Reinforcement Learning for Construction Sequencing
+*M.Sc. thesis. Intelligent Robot Learning Lab, University of Alberta, with PCL Construction. April 2025 – June 2026.*
+
+Formulated the sequencing of a real PCL construction project as an MDP balancing crew movement cost, labour-curve smoothness, and total project duration. Built a custom simulator and end-to-end training pipeline, training MaskablePPO agents with action masking to enforce precedence and resource constraints on a 3D project grid. Experiment tracking in W&B, distributed training on Compute Canada via SLURM.
+
+Designed and ran a human study comparing agent-generated schedules against professional planners on a project subarea. The agent produced labour curves roughly 60% smoother than the human planners, while holding total duration within 6–10% of the strongest baseline and shorter than the human schedules.
+
+### Reinforcement Learning for FPGA Placement
+*Intelligent Robot Learning Lab, University of Alberta. June 2023 – January 2024.*
+
+Co-developed the first deep RL agent for FPGA placement: PPO with a ResNet and Graph Attention Network state encoder, plus invalid-action masking. Matched the state-of-the-art VTR placer's average wirelength on 15-block placements and beat it in individual runs.
+
+Random Network Distillation significantly improved exploration and final wirelength (p < 0.03). A divide-and-conquer training paradigm cut average wirelength by up to 6% against the monolithic RL baseline.
+
+See [Publications](publications.qmd) for the ISEDA 2024 and NeurIPS 2023 workshop papers.
+
+## Personal
+
+### Cartridge Finder
+Finds specific ink cartridges in photos of stockroom shelves and returns the photos with the matches boxed. Runs on a local GPU, used from a phone browser over a Cloudflare Tunnel with password auth.
+
+Labeled a 29-photo evaluation set containing 456 boxes and wrote a one-command scoring script. Currently finds 97% of queried cartridges; 9% of the boxes it draws are wrong. The OCR model sits behind a single interface so it can be swapped without touching the matching or serving code.

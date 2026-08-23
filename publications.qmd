@@ -1,0 +1,18 @@
+---
+title: "Publications"
+---
+
+**Boosting Robustness in Preference-Based Reinforcement Learning with Dynamic Sparsity**  
+Calarina Muslimani, Bram Grooten, Deepak Ranganatha Sastry Mamillapalli, Mykola Pechenizkiy, Decebal Constantin Mocanu, Matthew E. Taylor  
+*International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2025 (Extended Abstract)*  
+[arXiv](https://arxiv.org/abs/2406.06495)
+
+**FPGA Divide-and-Conquer Placement using Deep Reinforcement Learning**  
+Shang Wang, Deepak Ranganatha Sastry Mamillapalli, Tianpei Yang, Matthew E. Taylor  
+*International Symposium of Electronics Design Automation (ISEDA), 2024*  
+[arXiv](https://arxiv.org/abs/2404.13061) · [IEEE Xplore](https://ieeexplore.ieee.org/document/10617677)
+
+**Reinforcement Learning for FPGA Placement**  
+Shang Wang, Deepak Ranganatha Sastry Mamillapalli, Qianxi Li, Tianpei Yang, Matthew E. Taylor  
+*Machine Learning for Systems Workshop, NeurIPS 2023*  
+[OpenReview](https://openreview.net/forum?id=6GR8KqWCWf) · [PDF](https://mlforsystems.org/assets/papers/neurips2023/paper20.pdf)

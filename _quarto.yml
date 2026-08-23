@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Deepak R. Sastry"
+  site-url: https://deepakr-sastry.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/DeepakR-Sastry
+        aria-label: GitHub
+
+format:
+  html:
+    theme: theme.scss
+    css: styles.css
+    toc: false
+    html-math-method: katex
+    grid:
+      sidebar-width: 0px
+      body-width: 700px
+      margin-width: 0px
+      gutter-width: 1.5rem
+
+
+execute:
+  freeze: auto
