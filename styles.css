@@ -53,3 +53,18 @@ blockquote {
 .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
 
 footer, .nav-footer { display: none; }
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+}
+.navbar-toggler { display: none !important; }
+.navbar > .navbar-container { flex-wrap: wrap; }
+
+@media (max-width: 700px) {
+  .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .navbar .nav-link { font-size: 0.95rem; }
+}
